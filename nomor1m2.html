@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</head>
+
+<body>
+<h1> Hitung Faktorial dari Input </h1>
+<p>Masukkan sembarang angka:</p>  <input id="angka">
+<br><br>
+<button onclick="factorial()"> Factorial </button>
+<p id="result"></p>
+
+<script>
+    function factorial(){
+        var i, angka, j;
+        j = 1;
+        angka = document.getElementById("angka").value;
+        for(i = 1; i <= angka; i++)  
+        {
+            j = j * i;
+        }
+        document.getElementById("result").innerHTML = "angka faktorial dari " + i + " adalah: " + j ;
+    }
+</script>
+</body></html>

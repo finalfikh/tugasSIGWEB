@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nomor 2</title>
+    <script>
+    function daftar(){
+        var email = document.forms["form"]["email"].value;
+        var password = document.forms["form"]["password"].value;
+        if (password == "sss") {
+            alert("simpan pendaftaran");
+        }else{
+        alert("Password salah, masukkan pasword yang benar");
+        return false;
+        }
+    } 
+    </script>
+        
+        
+
+</head>
+<body>
+    <h1>Validasi Input</h1>	
+    <p> Masukkan nama, password dan alamat email anda : </p>
+    <div class="daftar">
+        <form action="" id="form">
+            <fieldset>
+                <div>
+                    <label>Nama:</label>
+                    <input type="text" name="">
+                </div>
+                <div>
+                    <label>Password:</label>
+                    <input type="password" name="password">
+                </div>
+                <div>
+                    <label>amial:</label>
+                    <input type="text" name="email">
+                </div>
+                
+                <div>
+                    <input onclick="daftar()" type="button" value="daftar" class="tombol">
+                </div>
+            </fieldset>
+            
+        </form>
+    </div>
+</body>
+</html>

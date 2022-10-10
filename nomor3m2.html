@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nomor 3</title>
+    <script>function verifikasi() {  
+        var nama = document.getElementById("name").value; 
+        if(nama == "") {
+            document.getElementById("message1").innerHTML = "<strong>Masukkan nama anda</strong>";
+            return false;
+        }
+        
+        var umur = document.getElementById("age").value; 
+        if(umur == "") {
+            document.getElementById("message2").innerHTML = "<strong>masukkan umur</strong>";
+            return false;
+        } 
+            if(umur <= 5) {  
+                document.getElementById('jawaban').innerHTML = "Anda masih bayi";  
+
+            } else if (umur >= 6 && umur <= 15) {  
+                document.getElementById('jawaban').innerHTML = "Anda masih anak-anak"; 
+ 
+                } else if (umur >= 16 && umur <= 30) {  
+                document.getElementById('jawaban').innerHTML = "Anda masih remaja"; 
+ 
+                } else if (umur >= 31 && umur <= 60) {  
+                document.getElementById('jawaban').innerHTML = "Anda sudah dewasa"; 
+ 
+                } else if (umur >= 61) {  
+                document.getElementById('jawaban').innerHTML = "Anda sudah tua"; 
+
+                } else {  
+                document.getElementById('jawaban').innerHTML = "Anda <strong>GAME OVER </strong>"; 
+                }
+                return false;
+    }    
+    </script>  
+        
+</head>
+<body>
+    <h1>Validasi Pengguna</h1>  
+<p> Silahkan masukkan nama dan umur Anda: </p>  
+<form onsubmit ="return verifikasi()">  
+Nama :
+<input type = "nama" id = "name" value = "">   
+<div id="message1"></div>
+<br>
+Umur :
+<input type = "umur" id = "age" value = "">   
+<div id="message1"></div>
+<input type = "submit" value = "Oke">  
+
+
+<p id="jawaban"></p>
+</form>
+</body>
+</html>
