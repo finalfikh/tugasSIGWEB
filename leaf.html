@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+    rel="stylesheet"
+    href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
+  />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
+  />
+
+
+    <style>
+      .jumbotron {
+        padding-top: 2rem;
+        background-color: #d2daff;
+      }
+      body {
+        min-height: 2000px;
+      }
+      #projects {
+        background-color: #d2daff;
+      }
+      
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #map {
+      height: 50%;
+      width: 50%;
+    }
+    </style>
+    <title>Simple Leaflet Map</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
+    />
+    <style>
+      body {
+        padding: 5px;
+        margin: 5px;
+        margin-left: 10px;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      #map {
+        height: 25%;
+        width: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    
+     <!-- navbar-->
+     <nav
+     class="navbar navbar-expand-lg navbar-dark shadow"
+     style="background-color: #0a4275"
+   >
+     <div class="container">
+       <a class="navbar-brand" href="#">Cv Fina Alfi Khasanah</a>
+       <button
+         class="navbar-toggler"
+         type="button"
+         data-bs-toggle="collapse"
+         data-bs-target="#navbarNav"
+         aria-controls="navbarNav"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+       >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="#">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Project</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Experience</a>
+           </li>
+           <li class="nav-item">
+             <a
+               class="nav-link"
+               href="https://api.whatsapp.com/send/?phone=6282138583017&text&type=phone_number&app_absent=0"
+               >Contact Me :)</a
+             >
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+   <!-- penutup navbar-->
+   <!-- jumbotron -->
+   <section class="jumbotron text-center">
+     <img
+       src="https://instagram.fjog4-1.fna.fbcdn.net/v/t51.2885-19/302634071_5563081087075878_741333311362178698_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fjog4-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=lNFFV_DYpTIAX-748XG&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT88_b9im_caQC_Wkr58QsfgIxA_75HfdntjfZUGAblvrQ&oe=634A586D&_nc_sid=8fd12b"
+       alt="fina"
+       width="200"
+       class="rounded-circle img-thumbnail"
+     />
+     <h1 class="display-4">Fina Alfi Khasanah</h1>
+     <p class="lead" style="margin: auto 100px">
+       introduce my name is Fina Alfi Khasanah, student of Geodesy Engineering
+       at Gadjah Mada University. I am a UI/UX designer, Front-end Web
+       Developer, Business and Leadership Enthusiast.
+     </p>
+     <p class="text-primary">
+       wa : 082138583017 | e-mail : fina.khasa@mail.ugm.ac.id | github :
+       finalikh
+     </p>
+     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+       <path
+         fill="#ffff"
+         fill-opacity="1"
+         d="M0,128L21.8,138.7C43.6,149,87,171,131,160C174.5,149,218,107,262,117.3C305.5,128,349,192,393,202.7C436.4,213,480,171,524,181.3C567.3,192,611,256,655,234.7C698.2,213,742,107,785,74.7C829.1,43,873,85,916,101.3C960,117,1004,107,1047,112C1090.9,117,1135,139,1178,128C1221.8,117,1265,75,1309,85.3C1352.7,96,1396,160,1418,192L1440,224L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+       ></path>
+     </svg>
+   </section>
+   <!-- penutup jumbotron -->
+   <!-- eduction -->
+   <section id="about">
+     <h2 class="text-center">Education</h2>
+     <div class="container">
+       <div class="row">
+         <div class="col-3">
+           <h4>August 2019 - now</h4>
+           <i>Geodesy Engineering, Gadjah Mada University </i>
+         </div>
+         <div class="col">
+           <p>
+             <ul>
+               <li>
+                 Geodesy Geodynamic Study Group
+               </li>
+               <li>Learning and Research at
+                 Keluarga Mahasiswa Teknik Geodesi</li>
+                 <li>Lecturer Assistant at Subject
+                   Discreate Mathematics and Computer Programming</li>
+             </ul>
+             
+           </p>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- penutupan about -->
+
+   <!-- penutup education -->
+   <!-- Optional JavaScript; choose one of the two! -->
+   <!-- About  -->
+   <section id="about" style="padding-top: 50px ;">
+     <h2 class="text-center">Experience</h2>
+     <div class="container">
+       <div class="row justify-content-center">
+         <div class="col-3">
+           <h4>2021 - now</h4>
+           <i>Yourhome.idn </i>
+         </div>
+         <div class="col">
+           <p>
+             <b>UI/UX Designer</b>
+             <ul>
+               <li>
+                 Make create website display and interactivity from the website [Transcript]
+               </li>
+               <li>perform testing, market before manufacturing, and design for the latest product development</li>
+
+             </ul>
+             
+           </p>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-3">
+           <h4>August 2019 - now</h4>
+           <i>Geodesy Engineering, Gadjah Mada University </i>
+         </div>
+         <div class="col">
+           <p>
+             <ul>
+               <li>
+                 Geodesy Geodynamic Study Group
+               </li>
+               <li>Learning and Research at
+                 Keluarga Mahasiswa Teknik Geodesi</li>
+                 <li>Lecturer Assistant at Subject
+                   Discreate Mathematics and Computer Programming</li>
+             </ul>
+             
+           </p>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-3">
+           <h4>August 2019 - now</h4>
+           <i>Geodesy Engineering, Gadjah Mada University </i>
+         </div>
+         <div class="col">
+           <p>
+             <ul>
+               <li>
+                 Geodesy Geodynamic Study Group
+               </li>
+               <li>Learning and Research at
+                 Keluarga Mahasiswa Teknik Geodesi</li>
+                 <li>Lecturer Assistant at Subject
+                   Discreate Mathematics and Computer Programming</li>
+             </ul>
+             
+           </p>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-3">
+           <h4>August 2019 - now</h4>
+           <i>Geodesy Engineering, Gadjah Mada University </i>
+         </div>
+         <div class="col">
+           <p>
+             <ul>
+               <li>
+                 Geodesy Geodynamic Study Group
+               </li>
+               <li>Learning and Research at
+                 Keluarga Mahasiswa Teknik Geodesi</li>
+                 <li>Lecturer Assistant at Subject
+                   Discreate Mathematics and Computer Programming</li>
+             </ul>
+             
+           </p>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-3">
+           <h4>August 2019 - now</h4>
+           <i>Geodesy Engineering, Gadjah Mada University </i>
+         </div>
+         <div class="col">
+           <p>
+             <ul>
+               <li>
+                 Geodesy Geodynamic Study Group
+               </li>
+               <li>Learning and Research at
+                 Keluarga Mahasiswa Teknik Geodesi</li>
+                 <li>Lecturer Assistant at Subject
+                   Discreate Mathematics and Computer Programming</li>
+             </ul>
+             
+           </p>
+         </div>
+       </div>
+     </div>
+
+
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d2daff" fill-opacity="1" d="M0,64L30,90.7C60,117,120,171,180,208C240,245,300,267,360,256C420,245,480,203,540,208C600,213,660,267,720,256C780,245,840,171,900,154.7C960,139,1020,181,1080,181.3C1140,181,1200,139,1260,101.3C1320,64,1380,32,1410,16L1440,0L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+   </section>
+   <section id="projects">
+     <div class="container">
+       <div class="row text-center">
+         <div class="col">
+           <h2>
+             My Projects
+           </h2>
+         </div>
+       </div>
+       <div class="container">
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+           <div class="col">
+             <div class="card h-100">
+               <img src="..." class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               </div>
+               <div class="card-footer">
+                 <small class="text-muted">Last updated 3 mins ago</small>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card h-100">
+               <img src="..." class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+               </div>
+               <div class="card-footer">
+                 <small class="text-muted">Last updated 3 mins ago</small>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card h-100">
+               <img src="..." class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+               </div>
+               <div class="card-footer">
+                 <small class="text-muted">Last updated 3 mins ago</small>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="0.5" d="M0,192L20,186.7C40,181,80,171,120,160C160,149,200,139,240,122.7C280,107,320,85,360,85.3C400,85,440,107,480,133.3C520,160,560,192,600,213.3C640,235,680,245,720,213.3C760,181,800,107,840,112C880,117,920,203,960,208C1000,213,1040,139,1080,144C1120,149,1160,235,1200,256C1240,277,1280,235,1320,213.3C1360,192,1400,192,1420,192L1440,192L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg>
+   <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">tugas 1</h5>
+          <p class="card-text">Tugas HTML.</p>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a href="https://github.com/finalfikh/tugasSIGWEB"><button type="button" class="btn btn-primary">go</button></a>
+        
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">tugas 3</h5>
+          <p class="card-text">tugas JS</p>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a href="https://github.com/finalfikh/tugasSIGWEB"><button type="button" class="btn btn-primary">go</button></a>
+        
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">tugas 5</h5>
+          <p class="card-text">tugas leaflet</p>
+          <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="https://github.com/finalfikh/tugasSIGWEB"><button type="button" class="btn btn-primary">go</button></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">tugas 6</h5>
+          <p class="card-text">tugas geojson
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="https://github.com/finalfikh/tugasSIGWEB"><button type="button" class="btn btn-primary">go</button></a>
+            
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="essay">
+    <h2> Pembuatan Webgis untuk pennetuan rute tercepat dari perusahaan ekspedisi</h2>
+    <p>
+        saya memiliki gagasan untuk membuat webgis yaitu membuat rute tercepat untuk ekspediasi agar paket terdistribusi secara efektif, basis peta yang digunakan adalah OSM, dan dengan menggunakan algoritma dijkstra adalah algoritma untuk menemukan jalur terpendek antara node dalam grafik , yang dapat mewakili untuk jaringan jalan agar paket saya dengan cepat terantarkan, selian itu jug aperku geocoding untuk setiap titik lokasi alamat penerima, jadi saya dapat juga memantau jalanya paket saya sampai mana,
+
+    </p>
+  </div>
+  <div id="map"></div>
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+
+  <script>
+    var map = L.map("map").setView([-7.76591, 110.37742], 14);
+    var planes = [
+      ["Breadtalk Lippo Plaza", -7.784125, 110.50808],
+      ["Wisdom park", -7.770423, 110.382028],
+      ["Waduk sermo", -7.784125, 110.50808],
+      ["Kopi akar jati", -7.764323, 110.366517],
+      ["Fore coffe jalan kaliurang", -7.760255, 110.381065],
+      ["Senja kopi godean", -7.765465, 110.378864],
+      ["Tempo gelato jalan kaliurang", -7.762697, 110.37989],
+      ["Co-san Coffe", -7.761612, 110.379269],
+      ["Toko Buku Akik", -7.784125, 110.50808],
+      ["co-working space geodesi UGM", -7.763882, 110.372898],
+      ["Markas JogjaAstroClub", -7.760095, 110.395546],
+      ["Estuary Coffe", -7.763297, 110.36979],
+    ];
+    mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+    L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "Map data &copy; " + mapLink,
+      maxZoom: 18,
+    }).addTo(map);
+    var marker = L.marker(
+      [-7.76591, 110.37742]
+      // , { draggable: true }
+    )
+      .addTo(map)
+      .bindPopup("<b>Favorit</b><br>Fakultas Geografi.")
+      .openPopup();
+    for (var i = 0; i < planes.length; i++) {
+      marker = new L.marker([planes[i][1], planes[i][2]])
+        .bindPopup(planes[i][0])
+        .openPopup()
+        .addTo(map);
+    }
+
+    var rumah = L.polygon(
+      [
+        [-7.760255, 110.381065],
+        [-7.760251, 110.381062],
+        [-7.760245, 110.381021],
+        [-7.760255, 110.381165],
+        [-7.760295, 110.381065],
+      ],
+      {
+        color: "red",
+        weight: 5,
+        opacity: 0.7,
+      }
+    ).addTo(map);
+  </script>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="0.5" d="M0,192L20,186.7C40,181,80,171,120,160C160,149,200,139,240,122.7C280,107,320,85,360,85.3C400,85,440,107,480,133.3C520,160,560,192,600,213.3C640,235,680,245,720,213.3C760,181,800,107,840,112C880,117,920,203,960,208C1000,213,1040,139,1080,144C1120,149,1160,235,1200,256C1240,277,1280,235,1320,213.3C1360,192,1400,192,1420,192L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Made by Love</span>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+    </div>
+    
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright by Fina Alfi Khasanah:
+      <a class="text-white" href="https://mdbootstrap.com/">github.com/finalfikh</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+
+  </body>
+</html>
